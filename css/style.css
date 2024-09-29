@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    position:fixed;
+    padding: 1.5rem;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+body{
+    background-color: white;
+}
+
+#check{
+    display:none;
+}
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+   text-decoration:underline;
+ 
+  }
+
+  .menus{
+    filter: invert(1);
+  }
+
+.checkbtn{
+    font-size: 20px;
+    float: right;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 30px;
+    cursor: pointer;
+    display:none;
+    margin-top: 1rem;
+   
+}
+#img{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 9rem;
+    object-fit: cover;
+}
+
+.intro{
+
+position: relative;
+}
+
+.introduction-text{
+    background-color:white;
+    box-shadow:  1px 2px 9px lightgray;
+  
+    width:15rem;
+   padding: 0.5rem;
+    font-size: 30px;
+    margin: auto;
+ 
+    margin-top: 4rem;
+  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.profile-img {
+    width: 100%;
+    margin:auto;
+    display: flex;
+    object-fit: contain;
+    max-width: 600px;
+    margin-top: 7rem;
+  
+}  
+.main{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+} 
+
+p{
+    font-size: px;
+    width: 100%;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: 3rem;
+}
+hr{
+    margin-top: 4rem;
+    border: 1px solid lightgray;
+}
+.lists{
+    font-size: 18px;
+    font-family: "Work",sans-serif;
+    margin-top: 1rem;
+}
+.school-head{
+    font-size: 19px;
+    font-family: "Work",sans-serif;
+    margin-top: 2rem;
+}
+.css{
+    margin-top: 1rem;
+}
+body{
+    background-color:white;
+}
+.img-flex{
+display: flex;
+
+gap: 2rem;
+}
+#p{
+    font-weight: 500;
+    font-size: px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.web{
+    width: 80%;
+    margin: auto;
+  display: grid;
+   object-fit: cover;
+}
+.web:hover{
+    background-color:red;
+    width: 80%;
+    opacity: 0.5;
+    position: relative;
+}
+.project-card{
+
+}
+.box{
+    background-color:black;
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem;
+}
+.color{
+    filter: invert();
+}
+.links{
+   
+}
+#git{
+   float: right; 
+}
+input{
+    width: 100%;
+    border:1px solid lightgray;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    font-family: "Work",sans-serif;
+    font-size: 17px;
+    font-family: "Work",sans-serif;
+    margin-top: 2rem;
+
+}
+input[type="name"]{
+    padding: 0.8rem;
+    
+    
+  }
+  ::placeholder{
+    font-size: 17px;
+    font-family: "Work",sans-serif;
+  }
+
+  textarea{
+    margin-top: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+  }
+
+
+
+  button{
+    width: 100%;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Work",sans-serif;
+    margin-top: 2rem;
+    border-radius: 2rem;
+  }
+  .err{
+    color: red;
+    font-family: "Work",sans-serif;
+    font-size: 13px;
+    display: none;
+  }
+
+  .email{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 1rem;
+  }
+  #email,a{
+    margin-top: 0.1rem;
+    text-decoration: none;
+    color: black;
+    font-family:"Work",sans-serif;
+    font-size: 14px;
+    
+  }
+  h2{
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2rem;
+  }
+
+  .socials-back{
+    background-color: aqua;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 2rem;
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+   
+  }
+  .socials-back:hover{
+    background-color: black;
+   
+    transition: all 0.6s ease-in-out;
+  }
+  .socials{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .imbg:hover{
+    filter: invert(1);
+  }
+
+  footer{
+    background-color: black;
+    margin-top: 3rem;
+    width: 100%;
+  
+    padding-bottom: 3rem;
+  }
+  #tex-col{
+    color: white;
+  }
+
+  .footer-p{
+    color: white;
+    width: 100%;
+  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #email-footer{
+  padding: 0.5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ width: 90%;
+ margin-top: -1rem;
+ gap: 1rem;
+ margin: auto;
+  background-color: white;
+  border-radius: 2rem;
+  }
+
+  #social-links{
+  display: flex;
+  padding-left: 1rem;
+  }
+
+  #about{
+    display: none;
+  }
+  .hr-btm,.about-desk{
+    display: none;
+  }
+
+  #closemenu{
+    display: block;
+    color: #000;
+  }
+
+  @media (width >= 500px){
+    .introduction-text{
+       
+        margin-top: -6rem;
+        padding: 2.5rem;
+        width: 350px;
+   display: flex;
+        z-index: 1;
+    }
+    .About{
+      background-color: red;
+      display: grid;
+      grid-template-columns:1fr 1fr;
+      display: none;
+    }
+    .hr{
+        display: none;
+    }
+    .profile{
+       width: 100%;
+    }
+    #about{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        height: 300px;
+       
+        margin-top: 14rem;
+    }
+    .profile-text{
+        max-height: 300px;
+    font-size: 11px;
+    font-weight: 500px;
+    margin-top: -4rem;
+    }
+    .skills{
+        margin-top: 11rem;
+    }
+
+    
+  }
+  @media (width >= 700px){
+    P{
+        font-size: 13px;
+       
+    }
+    h1{
+        margin-top: 1rem;
+    }
+    .hr-btm{
+        margin-top: 1rem;
+    }
+    #img{
+        height: 300px;
+        width: 600px;
+    }
+    .introduction-text{
+        padding: 2rem;
+      
+        margin-top: -9rem;
+    }
+    #email,a{
+      font-size: 20px; 
+
+  }
+  .email{
+    width: 60%;
+  }
+  .footer-p{
+    font-size: 18px;
+    width: 500px;
+    float: left;
+    margin-left: 1rem;
+  }
+  #email-footer{
+    width: 60%;
+    
+    
+  }
+  #tex-col{
+    font-size: 25px;
+  }
+  
+}
+
+@media (width >= 800px){
+    .profile{
+       border-radius: 50%;
+       width: 70%;
+    }
+    .web{
+        height: 600px;
+        object-fit: contain;
+    }
+    .box{
+        width: 36%;
+        
+    }
+}
+
+    @media (width >= 900px){
+       .ul-top{
+        display: flex;
+        gap: 1rem;
+        float: right;
+        margin-top: -2rem;
+        margin-right: 2rem;
+       }
+
+       ul{
+        text-decoration: none;
+        list-style: none;
+       }
+
+       #closemenu{
+        display: none;
+       }
+    }
+
+    @media ( width >= 1200px){
+      #about{
+        display: none;
+      }
+      .profile-text{
+        margin-top: 4rem;
+      }
+      h1{
+        font-size: 40px;
+      }
+      p{
+        font-size: 20px;
+      }
+      .about-desk{
+       display: flex;
+       gap: 2rem;
+       margin-top: 8rem;
+      }
+      .img-desk{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+
+      }
+    #img{
+      width: 100%;
+      height: 60%;
+    } 
+
+    .introduction-text{
+      width: 600px;
+      padding: 6rem;
+      font-size: 55px;
+      margin-top: -28.1rem;
+      float: left;
+      
+    }
+    p{
+      font-size: 20px;
+    }
+      
+    }
+
+@media (max-width:900px){
+    .checkbtn{
+        display: block;
+       }
+
+      
+    
+       ul{
+        position:fixed;
+   height: 100vh;
+   z-index: 1;
+   width: 80%;
+   max-width: -300px;
+   background-color: rgb(46, 45, 45);
+    left: -100%;
+    right:-50%;
+   top: 0;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: white;
+    font-family: 'Epilogue', sans-serif;
+    transition: all 0.9s;
+    opacity: 2;
+       }
+       
+    
+      #closemenu{
+       font-size: 40px;
+       margin-left: 1rem;
+       margin-top: em;
+       float: left;
+       display: flex;
+      }
+      .ul-top{
+        margin-top: 4rem;
+      }
+
+
+      
+      
+    
+       nav ul li {
+           display:block;
+           margin: 35px 0px;
+           line-height: 1px;
+           font-size: 16px;
+           color: black;
+          
+       }   
+       nav ul li a{
+           font-size:16px;
+           text-decoration: none;
+           color: black;
+           margin-left: 3rem;
+           font-size: 20px;
+           font-weight: lighter;
+           font-family: Raleway, sans-serif;
+           line-height: rem;
+           font-weight: 700px;
+       }
+       .clo{
+        color: #ff926b;
+        margin-left: 3rem;
+       }
+       .ul-top{
+        margin-top: 6rem;
+        
+       }
+    
+       .get{
+        width: 80%;
+        margin: auto;
+        background-color: aqua;
+        padding: 1rem;
+        background: none;
+        border-radius: 1rem;
+        border: 1px solid white;
+       }
+       #check:checked ~ ul{
+           left: 0;
+       }
+       #close:checked ~ ul{
+            left: 0;
+       }
+       
+       
+    }
